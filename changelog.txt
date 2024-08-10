@@ -1,0 +1,46 @@
+% Version 1
+% implemented random word generator
+% implemented hangmanWord vector structure to define hidden/shown
+% properties of the letters of the word contained in hangmanWord
+
+% Version 2
+% implemented display feature that generates shownWord
+
+% Version 3
+% implemented beginnings of singleplayer
+% --- continuously asks the user for a guess
+% === checks if the guess is a single letter and not a previous guess
+
+% Version 4
+% implemented comparison between guess and hangmanWord
+% --- show letters that are correctly guessed
+
+% Version 5
+% implemented guess limit and ending
+
+% Version 6
+% implemented win condition
+
+% Version 7
+% implemented different ending states + minor visual changes
+
+% Version 8
+% implemented welcome sequence, different gamemodes and help panel
+
+% Version 9
+% implemented Hangman's Revenge
+% --- created letterCount and compareLetterCount functions
+
+% Version 10
+% reworked random word generator using new MATLAB function
+% separated functions from main file
+% created shownWord function
+% implemented Hangman's Revenge word progression + minor visual changes
+
+% Version 11
+% changed hard difficulty to 6 incorrect guesses (from 5)
+% implemented plot art to represent incorrect guesses
+
+% Version 12
+% implented new help screen
+% made changes after refining compareLetterCount function
